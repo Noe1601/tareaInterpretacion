@@ -75,3 +75,5 @@ ggplot( data = datos[datos$descuentoSeguro > 3000,],
 ggplot( data = datos,
         mapping = aes(x = AÑO,
                       y = SueldoANual)) + geom_col()
+
+                      
